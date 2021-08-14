@@ -1,6 +1,6 @@
 function spiderManLevelOne(){
 
-    var choice = userRedirection('../gameOver.html', 'levelTwoHolland.html');
+    var choice = userRedirection('gameOverHolland.html', 'levelTwoHolland.html');
 
 }
 

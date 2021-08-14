@@ -1,0 +1,21 @@
+.event:hover{
+    color:  #be9497;
+    transform:scale(1.0);
+    transition: 2.0s linear;
+    cursor:auto;
+}
+
+.imgSize:hover{
+    transform: scale(1.1);
+}
+
+.caracterButton:hover{
+    transform: scale(1.1);
+    background-color: white;
+}
+
+.caracterName:hover{
+    transform: scale(1.1);
+    color: black;
+    font-weight: bolder;
+}

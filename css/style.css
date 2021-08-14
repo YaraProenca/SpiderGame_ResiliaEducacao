@@ -38,7 +38,7 @@ main{
     display: flex;
     justify-content: space-evenly;
     padding: 20px;
-    font-size: 50px;
+    font-size: 40px;
     font-weight: bold;
     
 }
@@ -55,14 +55,35 @@ main{
 .grid{
     display: grid;
     grid-template-columns: auto auto auto;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 30px;
 }
 
 
 .imgSize{
     max-width: 150px;
-    
+    transition: 0.4s ease-in-out;
+}
+
+a{
+    text-decoration: none;
+}
+
+.caracterButton{
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    margin-top: 20px;
+    cursor: pointer; 
+    position: relative;
+    transition: 0.4s ease-in-out;
+}  
+.caracterName{
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: 700;
+    transition: 0.4s ease-in-out; 
 }
 
 .bgTomHolland{
