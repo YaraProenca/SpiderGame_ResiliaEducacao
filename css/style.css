@@ -67,6 +67,7 @@ main{
 
 a{
     text-decoration: none;
+    color:white;
 }
 
 .caracterButton{
@@ -91,3 +92,55 @@ a{
     background-size: cover;  
     background-repeat: no-repeat;   
 }
+
+.bgGameOverHolland{
+    background-image: url(../assets/img/bg.HollandameOver.jpg);
+    background-size: cover;  
+    background-repeat: no-repeat;
+}
+
+.bgGameOverMorales{
+    background-image: url(../assets/img/bgGameOverMorales.jpg);
+    background-size: cover;  
+    background-repeat: no-repeat;   
+}
+
+.gameOverGarfield{
+    background-image: url(../assets/img/bgGameOverGarfield.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+
+.gameOverBox{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 40px;
+    margin-top: 15%;
+    margin-left: 18%;
+    max-width: 760px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.h1GameOverGarfield{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 50px;
+    padding: 15px;
+}
+
+.gameOverTxt{
+    font-size: 22px;
+    font-family: 'Marvel', sans-serif;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.buttonGameOver{
+   color:white;
+   font-family: 'Press Start 2P', cursive;
+   font-size: 18px;
+   padding: 5px;
+}
+    
