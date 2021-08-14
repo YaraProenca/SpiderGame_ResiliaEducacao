@@ -1,0 +1,74 @@
+*, *::after, 
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+   font-family: 'Marvel', sans-serif;
+   background-image: url(/assets/img/mainBackground.png);
+   background-size: cover;  
+   background-repeat: no-repeat;    
+}
+header{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.imgLogo{
+    display: flex;
+    max-width: 200px;
+
+}
+
+main{
+    color: white;
+}
+
+.welcome{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    font-size: 50px;
+    font-weight: bold;
+    
+}
+
+.firstP{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 45px;
+    display: flex;
+    padding: 5px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+.grid2{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-around;
+}
+
+.imgSize{
+    max-width: 150px;
+    
+}
+
+.bgTomHolland{
+    background-image: url(/assets/img/PeterParkerBackground.png);
+    background-size: cover;  
+    background-repeat: no-repeat;   
+}
