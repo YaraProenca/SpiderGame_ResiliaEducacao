@@ -1,7 +1,7 @@
-function tomHollandSpiderLevelOne(){
+function spiderManLevelOne(){
 
     var choice = userRedirection('../gameOver.html', 'levelTwoHolland.html');
 
 }
 
-tomHollandSpiderLevelOne();
+spiderManLevelOne();
