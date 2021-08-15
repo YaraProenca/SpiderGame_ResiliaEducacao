@@ -230,6 +230,7 @@ a{
 
 .pngMorales{
     max-width: 300px;
+    margin-left: 10%;
     
 }    
 
@@ -243,21 +244,21 @@ a{
 
 .animationHoland2{
     position: absolute;
-    margin-left: 8%;
+    margin-left: 10%;
 }
 
 .pngHoland2{
     max-width: 235px;
-    padding-left: 20px;
+    padding-left: 25px;
 }
 
 .animationHoland3{
     position: absolute;
-    margin-left: 8%;
+    margin-left: 10%;
 
 }
 
 .pngHoland3{
     max-width: 200px;
-    margin-left: 30%;    
+    margin-left: 35%;    
 }
