@@ -5,17 +5,13 @@
     box-sizing: border-box;
 }
 
-html, body{
-    width: 100%;
-    height: 100vh; 
-}
-
 body{
    font-family: 'Marvel', sans-serif;
    background-image: url(../assets/img/mainBackground.png);
    background-size: cover;  
    background-repeat: no-repeat;  
    background-position: center;
+   
 }
 
 header{
@@ -93,18 +89,16 @@ a{
 }
 
 .bgTomHolland{
-    background-image: url(../assets/img/PeterParkerBackground.png);
+    background-image: url(../assets/img/bgHollandParker.png);
     background-size: cover;  
     background-repeat: no-repeat;
-    width: 100%;
-    height: 100vh;   
+    height: 100vh;
 }
 
 .bgWinHolland{
     background-image: url(../assets/img/bgWinHolland.jpg);
     background-size: cover;  
     background-repeat: no-repeat;
-    width: 100%;
     height: 100vh;
 }
 
@@ -112,7 +106,6 @@ a{
     background-image: url(../assets/img/bg.HollandameOver.jpg);
     background-size: cover;  
     background-repeat: no-repeat;
-    width: 100%;
     height: 100vh;
 }
 
@@ -120,47 +113,41 @@ a{
     background-image: url(../assets/img/backgroundSpiderManMilesMorales.jpg);
     background-size: cover;  
     background-repeat: no-repeat;
-    width: 100%;
     height: 100vh;
-
 }
 
 .bgWinMorales{
     background-image: url(../assets/img/bgWinMM.jpg);
     background-size: cover;  
     background-repeat: no-repeat;
-    width: 100%;
-    height: 100vh; 
+    height: 100vh;
 }
 
 .bgGameOverMorales{
     background-image: url(../assets/img/bgGameOverMorales.jpg);
     background-size: cover;  
     background-repeat: no-repeat;
-    width: 100%;
-    height: 100vh;   
+    height: 100vh;
 }
 
 .bgGarfield{
     background-image: url(../assets/img/bgGarfield.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    width: 100%;
-    height: 100vh; 
+    height: 100vh;
 }
 
 .bgWinGarfield{
     background-image: url(../assets/img/bgWinGarfield.gif);
     background-size: cover;
     background-repeat: no-repeat;
-    width: 100%;
-    height: 100vh; 
-}
+    height: 100vh;
+}  
+
 .gameOverGarfield{
     background-image: url(../assets/img/bgGameOverGarfield.gif);
     background-size: cover;
     background-repeat: no-repeat;
-    width: 100%;
     height: 100vh;
 }
 
@@ -236,14 +223,6 @@ a{
     margin-left: 10%;
     
 }    
-
-.animationHoland{
-    position: absolute;
-}
-
-.pngHoland{
-    max-width: 235px;
-}
 
 .animationHoland2{
     position: absolute;
