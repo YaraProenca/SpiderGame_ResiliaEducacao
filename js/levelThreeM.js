@@ -1,6 +1,6 @@
 function spiderManLevelThree(){
 
-    let choice = userRedirection('winMorales.html', 'gameOverMorales.html' );
+    let choice = userRedirection('winMorales.html', 'gameOverMorales3.html' );
 
 }
 

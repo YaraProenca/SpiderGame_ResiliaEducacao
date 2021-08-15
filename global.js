@@ -1,21 +1,20 @@
-function userRedirection(fase1, fase2) {
+function userRedirection(choice1, choice2) {
     var escolha
 
     while (true) {
 
-        escolha = parseInt(prompt('blalalala: \n' + '1 - blalala \n' + '2 - blalala'));
+        escolha = parseInt(prompt('Qual opção escolherá: \n' + '1  ou 2 '));
 
         if (escolha === 1 || escolha === 2) {
 
             if (escolha === 1) {
 
-                // alert('SE DEU MAU! Volte ao início');
-
-                location.replace(fase1);
+                location.replace(choice1);
             }
 
             else {
-                location.replace(fase2);
+                
+                location.replace(choice2);
             }
 
 

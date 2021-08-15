@@ -1,6 +1,6 @@
 function spiderManLevelThree(){
 
-    let choice = userRedirection('winGarfield.html', 'gameOverGarfield.html' );
+    let choice = userRedirection('winGarfield.html', 'gameOverGarfield3.html' );
 
 }
 
