@@ -17,5 +17,17 @@
 .caracterName:hover{
     transform: scale(1.1);
     color: black;
-    font-weight: bolder;
+    font-weight: bold;
+}
+
+.choiceButton:hover{
+    color: #d14952;
+}
+
+.buttonGameOver:hover{
+    transform: scale(1.1);
+}
+
+.aHoverGO:hover{
+    color: #d14952;
 }
