@@ -1,246 +1,247 @@
-*, *::after, 
-*::before{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body{
-   font-family: 'Marvel', sans-serif;
-   background-image: url(../assets/img/mainBackground.png);
-   background-size: cover;  
-   background-repeat: no-repeat;  
-   background-position: center;
-   
+body {
+  font-family: "Marvel", sans-serif;
+  background-image: url(../assets/img/mainBackground.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
-header{
-    display: flex;
-    justify-content: center;
-    padding: 10px;
+header {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
 }
 
-.imgLogo{
-    display: flex;
-    max-width: 200px;
-
+.imgLogo {
+  display: flex;
+  max-width: 200px;
 }
 
-main{
-    color: white;
+main {
+  color: white;
 }
 
-.welcome{
-    display: flex;
-    justify-content: space-evenly;
-    padding: 20px;
-    font-size: 40px;
-    font-weight: bold;
-    
+.welcome {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+  font-size: 40px;
+  font-weight: bold;
 }
 
-.firstP{
-    font-size: 30px;
-    font-weight: bold;
-    text-align: center;
-    line-height: 45px;
-    padding: 5px;
+.firstP {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 45px;
+  padding: 5px;
 }
 
-.indexP{
-    display: flex;
-    padding-left: 10%;
-    padding-right: 10%;
+.indexP {
+  display: flex;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
-.grid{
-    display: grid;
-    grid-template-columns: auto auto auto;
-    justify-content: space-around;
-    padding: 30px;
+.grid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: space-around;
+  padding: 30px;
 }
 
-
-.imgSize{
-    max-width: 150px;
-    transition: 0.4s ease-in-out;
+.imgSize {
+  max-width: 150px;
+  transition: 0.4s ease-in-out;
 }
 
-a{
-    text-decoration: none;
-    color:white;
+a {
+  text-decoration: none;
+  color: white;
 }
 
-.caracterButton{
-    background-color: rgba(0, 0, 0, 0.5);
-    border-radius: 20px;
-    margin-top: 20px;
-    cursor: pointer; 
-    position: relative;
-    transition: 0.4s ease-in-out;
-}  
-.caracterName{
-    padding-left: 40px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    color: white;
-    font-weight: 700;
-    transition: 0.4s ease-in-out; 
+.caracterButton {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  margin-top: 20px;
+  cursor: pointer;
+  position: relative;
+  transition: 0.4s ease-in-out;
+}
+.caracterName {
+  padding-left: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  font-weight: 700;
+  transition: 0.4s ease-in-out;
 }
 
-.bgTomHolland{
-    background-image: url(../assets/img/bgHollandParker.png);
-    background-size: cover;  
-    background-repeat: no-repeat;
-    height: 100vh;
+.bgTomHolland {
+  background-image: url(../assets/img/bgHollandParker.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
 }
 
-.bgWinHolland{
-    background-image: url(../assets/img/bgWinHolland.jpg);
-    background-size: cover;  
-    background-repeat: no-repeat;
-    height: 100vh;
+.bgWinHolland {
+  background-image: url(../assets/img/bgWinHolland.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
 }
 
-.bgGameOverHolland{
-    background-image: url(../assets/img/bg.HollandameOver.jpg);
-    background-size: cover;  
-    background-repeat: no-repeat;
-    height: 100vh;
+.bgGameOverHolland {
+  background-image: url(../assets/img/bg.HollandameOver.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
 }
 
-.bgMorales{
-    background-image: url(../assets/img/backgroundSpiderManMilesMorales.jpg);
-    background-size: cover;  
-    background-repeat: no-repeat;
-    height: 100vh;
+.bgMorales {
+  background-image: url(../assets/img/backgroundSpiderManMilesMorales.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
 }
 
-.bgWinMorales{
-    background-image: url(../assets/img/bgWinMM.jpg);
-    background-size: cover;  
-    background-repeat: no-repeat;
-    height: 100vh;
+.bgWinMorales {
+  background-image: url(../assets/img/bgWinMM.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
 }
 
-.bgGameOverMorales{
-    background-image: url(../assets/img/bgGameOverMorales.jpg);
-    background-size: cover;  
-    background-repeat: no-repeat;
-    height: 100vh;
+.bgGameOverMorales {
+  background-image: url(../assets/img/bgGameOverMorales.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
 }
 
-.bgGarfield{
-    background-image: url(../assets/img/bgGarfield.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100vh;
+.bgGarfield {
+  background-image: url(../assets/img/bgGarfield.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
 }
 
-.bgWinGarfield{
-    background-image: url(../assets/img/bgWinGarfield.gif);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100vh;
-}  
-
-.gameOverGarfield{
-    background-image: url(../assets/img/bgGameOverGarfield.gif);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100vh;
+.bgWinGarfield {
+  background-image: url(../assets/img/bgWinGarfield.gif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
 }
 
-.boxPages{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    padding: 30px;
-    margin-top: 8%;
-    margin-left: 20%;
-    max-width: 760px;
-    background-color: rgba(0, 0, 0, 0.5);
+.gameOverGarfield {
+  background-image: url(../assets/img/bgGameOverGarfield.gif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
 }
 
-.h1Title{
-    color: white;
-    font-family: 'Marvel', sans-serif;
-    font-size: 40px;
-    padding: 5px;
+.gameOverGarfield1e2 {
+  background-image: url(../assets/img/bgGameOverGarfield1e2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
 }
 
-.gameTxt{
-    color: white;
-    font-family: 'Marvel', sans-serif;
-    font-size: 16px;
-    padding: 5px;
+.boxPages {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 30px;
+  margin-top: 8%;
+  margin-left: 20%;
+  max-width: 760px;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
-.choiceButton{
-    font-family: 'Marvel', sans-serif;
-    font-size: 40px;
-    transition: 1.0s ease-in-out;
+.h1Title {
+  color: white;
+  font-family: "Marvel", sans-serif;
+  font-size: 40px;
+  padding: 5px;
 }
 
-.gameOverBox{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    padding: 40px;
-    margin-top: 10%;
-    margin-left: 18%;
-    max-width: 760px;
-    background-color: rgba(0, 0, 0, 0.5);
+.gameTxt {
+  color: white;
+  font-family: "Marvel", sans-serif;
+  font-size: 16px;
+  padding: 5px;
 }
 
-.h1GameOverGarfield{
-    font-family: 'Press Start 2P', cursive;
-    font-size: 50px;
-    padding: 15px;
+.choiceButton {
+  font-family: "Marvel", sans-serif;
+  font-size: 40px;
+  transition: 1s ease-in-out;
 }
 
-.gameOverTxt{
-    font-size: 22px;
-    font-family: 'Marvel', sans-serif;
-    font-weight: bold;
-    padding: 20px;
+.gameOverBox {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 40px;
+  margin-top: 10%;
+  margin-left: 18%;
+  max-width: 760px;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
-
-.buttonGameOver{
-   color:white;
-   font-family: 'Press Start 2P', cursive;
-   font-size: 18px;
-   padding: 5px;
+.h1GameOverGarfield {
+  font-family: "Press Start 2P", cursive;
+  font-size: 50px;
+  padding: 15px;
 }
 
-.animationMorales{
-    position: absolute;
+.gameOverTxt {
+  font-size: 22px;
+  font-family: "Marvel", sans-serif;
+  font-weight: bold;
+  padding: 20px;
 }
 
-.pngMorales{
-    max-width: 300px;
-    margin-left: 10%;
-    
-}    
-
-.animationHoland2{
-    position: absolute;
-    margin-left: 15%;
+.buttonGameOver {
+  color: white;
+  font-family: "Press Start 2P", cursive;
+  font-size: 18px;
+  padding: 5px;
 }
 
-.pngHoland2{
-    max-width: 235px;
-    padding-left: 25px;
+.animationMorales {
+  position: absolute;
 }
 
-.animationHoland3{
-    position: absolute;
-    margin-left: 10%;
-
+.pngMorales {
+  max-width: 300px;
+  margin-left: 10%;
 }
 
-.pngHoland3{
-    max-width: 200px;
-    margin-left: 35%;    
+.animationHoland2 {
+  position: absolute;
+  margin-left: 15%;
+}
+
+.pngHoland2 {
+  max-width: 235px;
+  padding-left: 25px;
+}
+
+.animationHoland3 {
+  position: absolute;
+  margin-left: 10%;
+}
+
+.pngHoland3 {
+  max-width: 200px;
+  margin-left: 35%;
 }

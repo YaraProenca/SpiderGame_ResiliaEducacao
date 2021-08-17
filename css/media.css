@@ -1,0 +1,27 @@
+@media (max-width: 768px) {
+  .bgGarfield {
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    background-repeat: repeat;
+  }
+
+  .gameOverBox {
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    margin-right: 10%;
+  }
+  .gameOverTxt {
+    display: flex;
+    text-align: center;
+  }
+
+  .boxPages {
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    margin-right: 10%;
+    max-width: 700px;
+  }
+}
