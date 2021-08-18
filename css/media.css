@@ -1,9 +1,21 @@
 @media (max-width: 768px) {
+  body {
+    background-image: url(../assets/img/mainBackground.png);
+    width: 100vw;
+    height: 100%;
+  }
+
+  .welcome > h2 {
+    font-size: 20px;
+    display: flex;
+    text-align: center;
+  }
+
   .bgGarfield {
     background-size: cover;
     width: 100vw;
     height: 100vh;
-    background-repeat: repeat;
+    background-repeat: no-repeat;
   }
 
   .gameOverBox {
@@ -23,5 +35,25 @@
     flex-wrap: wrap;
     margin-right: 10%;
     max-width: 700px;
+  }
+
+  .pngHoland2 {
+    max-width: 200px;
+    padding-left: 20px;
+  }
+
+  .animationHoland2 {
+    position: absolute;
+    margin-left: 1%;
+  }
+
+  .animationHoland3 {
+    position: absolute;
+    margin-left: 3%;
+  }
+
+  .pngHoland3 {
+    max-width: 150px;
+    margin-left: 35%;
   }
 }
