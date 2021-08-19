@@ -10,12 +10,51 @@
     display: flex;
     text-align: center;
   }
+  .bgTomHolland {
+    background-image: url(../assets/img/bgHollandParker.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+  }
 
+  .bgWinHolland {
+    background-image: url(../assets/img/bgWinHolland.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+
+  .bgGameOverHolland {
+    background-image: url(../assets/img/bg.HollandameOver.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
   .bgGarfield {
     background-size: cover;
     width: 100vw;
     height: 100vh;
     background-repeat: no-repeat;
+  }
+
+  .bgMorales {
+    background-image: url(../assets/img/backgroundSpiderManMilesMorales.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+  .bgWinMorales {
+    background-image: url(../assets/img/bgWinMM.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+
+  .bgGameOverMorales {
+    background-image: url(../assets/img/bgGameOverMorales.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
   }
 
   .gameOverBox {
@@ -24,9 +63,11 @@
     flex-wrap: wrap;
     margin-right: 10%;
   }
+
   .gameOverTxt {
     display: flex;
     text-align: center;
+    padding: 10px;
   }
 
   .boxPages {
@@ -55,5 +96,13 @@
   .pngHoland3 {
     max-width: 150px;
     margin-left: 35%;
+  }
+
+  .animationMorales {
+    position: absolute;
+  }
+  .pngMorales {
+    max-width: 100px;
+    margin-left: 40%;
   }
 }
