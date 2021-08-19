@@ -28,6 +28,7 @@
     background-image: url(../assets/img/bg.HollandameOver.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    width: 100vw;
     height: 100vh;
   }
   .bgGarfield {
@@ -41,20 +42,20 @@
     background-image: url(../assets/img/backgroundSpiderManMilesMorales.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 100%;
   }
   .bgWinMorales {
     background-image: url(../assets/img/bgWinMM.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 100%;
   }
 
   .bgGameOverMorales {
     background-image: url(../assets/img/bgGameOverMorales.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 100%;
   }
 
   .gameOverBox {
@@ -62,12 +63,14 @@
     text-align: center;
     flex-wrap: wrap;
     margin-right: 10%;
+    max-width: 700px;
   }
 
   .gameOverTxt {
     display: flex;
     text-align: center;
-    padding: 10px;
+    padding: 9px;
+    margin-right: 35%;
   }
 
   .boxPages {
@@ -104,5 +107,10 @@
   .pngMorales {
     max-width: 100px;
     margin-left: 40%;
+  }
+
+  .buttonGameOver {
+    font-size: 15px;
+    padding: 3px;
   }
 }
