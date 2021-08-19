@@ -12,6 +12,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  height: 100vh;
 }
 
 header {
@@ -160,7 +161,7 @@ a {
   flex-direction: column;
   text-align: center;
   padding: 30px;
-  margin-top: 8%;
+  margin-top: 3%;
   margin-left: 20%;
   max-width: 760px;
   background-color: rgba(0, 0, 0, 0.5);
@@ -176,7 +177,7 @@ a {
 .gameTxt {
   color: white;
   font-family: "Marvel", sans-serif;
-  font-size: 16px;
+  font-size: 19px;
   padding: 5px;
 }
 
@@ -192,7 +193,7 @@ a {
   text-align: center;
   padding: 40px;
   margin-top: 10%;
-  margin-left: 18%;
+  margin-left: 20%;
   max-width: 760px;
   background-color: rgba(0, 0, 0, 0.5);
 }
@@ -223,7 +224,7 @@ a {
 
 .pngMorales {
   max-width: 300px;
-  margin-left: 10%;
+  margin-left: 13%;
 }
 
 .animationHoland2 {
